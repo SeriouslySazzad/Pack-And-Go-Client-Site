@@ -1,0 +1,12 @@
+.single-package{
+    background-color: rgba(255, 235, 205, 0.616);
+    border: 1px solid rgba(34, 139, 34, 0.801);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.single-package img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}

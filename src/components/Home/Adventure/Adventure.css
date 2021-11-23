@@ -1,0 +1,44 @@
+.adventure {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.adventure h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.adventure-contaner {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.single-adventure {
+    border: 1px solid slategrey;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(216, 191, 216, 0.308);
+    border-radius: 10px;
+}
+
+.single-adventure img {
+    margin-bottom: 10px;
+}
+
+.holiday-special {
+    background-color: grey;
+}
+
+@media only screen and (max-width:688px) {
+    .adventure-contaner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px){
+    .adventure-contaner {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

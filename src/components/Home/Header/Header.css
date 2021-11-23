@@ -1,0 +1,22 @@
+.logo {
+    color: orangered;
+    font-weight: 700;
+}
+
+.logo:hover {
+    color: #000;
+}
+
+.nav-menu {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-menu:hover{
+    color: darkgrey;
+}
+
+a {
+    text-decoration: none;
+}
